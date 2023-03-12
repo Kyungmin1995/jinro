@@ -1,4 +1,5 @@
 $(function () {
+  console.log("캐러셀 체크");
   if (!$("html,body").hasClass("on_brand")) {
     $("#bg_print").css({ display: "none" });
   }
