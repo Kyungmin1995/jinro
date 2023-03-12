@@ -211,25 +211,25 @@ $(document).ready(function () {
   $(".owl-prev").click(function () {
     owl.trigger("prev.owl.carousel", [300]);
   });
-  //   (function () {
-  //     var officialMainSns = $("#official_main_sns"),
-  //       owl = officialMainSns.find(".owl-carousel");
+  (function () {
+    var officialMainSns = $("#official_main_sns"),
+      owl = officialMainSns.find(".owl-carousel");
 
-  //     owl
-  //       .owlCarousel({
-  //         autoplay: true,
-  //         loop: true,
-  //         items: 1,
-  //         smartSpeed: 400,
-  //         mouseDrag: true,
-  //       })
-  //       .on("mouseover", function () {
-  //         owl.trigger("stop.owl.autoplay");
-  //       })
-  //       .on("mouseout", function () {
-  //         owl.trigger("play.owl.autoplay");
-  //       });
-  //   })();
+    owl
+      .owlCarousel({
+        autoplay: true,
+        loop: true,
+        items: 1,
+        smartSpeed: 400,
+        mouseDrag: true,
+      })
+      .on("mouseover", function () {
+        owl.trigger("stop.owl.autoplay");
+      })
+      .on("mouseout", function () {
+        owl.trigger("play.owl.autoplay");
+      });
+  })();
 });
 
 // (function () {
