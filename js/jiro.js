@@ -190,31 +190,48 @@ $(function () {
       300
     );
   });
-
-  console.log("dddddddddd");
 });
 
-// $(document).ready(function () {
-//   var owl = $(".owl-carousel");
+$(document).ready(function () {
+  var owl = $(".owl-carousel");
 
-//   owl.owlCarousel({
-//     items: 1,
-//     loop: true,
-//     margin: 35,
-//     autoplay: true,
-//     autoplayTimeout: 8000,
-//     autoplayHoverPause: true,
-//     // navigation: true,
-//   });
+  owl.owlCarousel({
+    items: 1,
+    loop: true,
+    margin: 35,
+    autoplay: true,
+    autoplayTimeout: 8000,
+    autoplayHoverPause: true,
+  });
 
-//   $(".owl-next").click(function () {
-//     owl.trigger("next.owl.carousel");
-//   });
+  $(".owl-next").click(function () {
+    owl.trigger("next.owl.carousel");
+  });
 
-//   $(".owl-prev").click(function () {
-//     owl.trigger("prev.owl.carousel", [300]);
-//   });
-// });
+  $(".owl-prev").click(function () {
+    owl.trigger("prev.owl.carousel", [300]);
+  });
+  //   (function () {
+  //     var officialMainSns = $("#official_main_sns"),
+  //       owl = officialMainSns.find(".owl-carousel");
+
+  //     owl
+  //       .owlCarousel({
+  //         autoplay: true,
+  //         loop: true,
+  //         items: 1,
+  //         smartSpeed: 400,
+  //         mouseDrag: true,
+  //       })
+  //       .on("mouseover", function () {
+  //         owl.trigger("stop.owl.autoplay");
+  //       })
+  //       .on("mouseout", function () {
+  //         owl.trigger("play.owl.autoplay");
+  //       });
+  //   })();
+});
+
 // (function () {
 //   var officialMainSns = $("#official_main_sns"),
 //     owl = officialMainSns.find(".owl-carousel");
