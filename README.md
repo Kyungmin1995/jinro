@@ -21,4 +21,4 @@
 -------------------------
 
 ![1](https://github.com/rudals95/typescriptTodo/assets/97620951/342f7b5d-d78c-4ae0-883c-5b190758ad8e)
-![ezgif com-video-to-gif-converted](https://github.com/rudals95/typescriptTodo/assets/97620951/26959f50-60bb-4fd5-bf01-49025ed6981d)
+![ezgif com-video-to-gif-converted](https://github.com/rudals95/typescriptTodo/assets/97620951/f8d91433-a000-4324-95cf-2655c579bd20)
