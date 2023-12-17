@@ -20,3 +20,4 @@
 ## 실행화면
 -------------------------
 
+![1](https://github.com/rudals95/typescriptTodo/assets/97620951/342f7b5d-d78c-4ae0-883c-5b190758ad8e)
